@@ -1,0 +1,9 @@
+{
+  "name": "peerjs-server-express",
+  "version": "0.0.1",
+  "description": "PeerJS Server integrated with Express",
+  "dependencies": {
+    "express": "^4.16.4",
+    "peer": "^0.2.10"
+  }
+}
