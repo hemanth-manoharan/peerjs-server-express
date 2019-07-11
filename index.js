@@ -14,4 +14,13 @@ const peerserver = ExpressPeerServer(server, options);
 
 app.use('/peerjs', peerserver);
 
+app.use(function(req, res, next) {
+  // TODO Not the most secure way though
+  // Refer: https://fosterelli.co/developers-dont-understand-cors
+  res.header("Access-Control-Allow-Origin", "http://localhost:8080,https://shrouded-lowlands-42939.herokuapp.com");
+  res.setHeader("Access-Control-Request-Method", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
 server.listen(PORT);
