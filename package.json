@@ -4,7 +4,7 @@
   "description": "PeerJS Server integrated with Express",
   "dependencies": {
     "express": "^4.16.4",
-    "peer-vpa-mod": "^0.2.9"
+    "peer": "^0.2.9"
   },
   "scripts": {
     "start": "node index.js"

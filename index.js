@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const ExpressPeerServer = require('peer-vpa-mod').ExpressPeerServer;
+const ExpressPeerServer = require('peer').ExpressPeerServer;
 const PORT = process.env.PORT || 9000;
 
 app.get('/', (req, res, next) => { res.send('Hello world!'); });
