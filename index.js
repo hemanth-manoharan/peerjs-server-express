@@ -4,6 +4,7 @@ const ExpressPeerServer = require('peer').ExpressPeerServer;
 const PORT = process.env.PORT || 9000;
 
 app.get('/', (req, res, next) => { res.send('Hello world!'); });
+app.get('/version', (req, res, next) => { res.send('0.1.0'); });
 
 const options = {
   debug: true

@@ -1,10 +1,10 @@
 {
   "name": "peerjs-server-express",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "PeerJS Server integrated with Express",
   "dependencies": {
-    "express": "^4.16.4",
-    "peer": "^0.2.9"
+    "express": "^4.17.1",
+    "peer": "^0.5.3"
   },
   "scripts": {
     "start": "node index.js"
