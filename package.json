@@ -1,10 +1,10 @@
 {
   "name": "peerjs-server-express",
   "version": "0.1.0",
-  "description": "PeerJS Server integrated with Express",
+  "description": "PeerJS Server (VPA Mod) integrated with Express",
   "dependencies": {
     "express": "^4.17.1",
-    "peer": "^0.5.3"
+    "peer-vpa-mod": "^0.5.3"
   },
   "scripts": {
     "start": "node index.js"
