@@ -7,6 +7,10 @@
     "peer-vpa-mod": "^0.5.3"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "tsc index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
   }
 }
