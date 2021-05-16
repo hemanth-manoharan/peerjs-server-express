@@ -4,7 +4,7 @@ const ExpressPeerServer = require('peer-vpa-mod').ExpressPeerServer;
 const PORT = process.env.PORT || 9000;
 
 app.get('/', (req, res, next) => { res.send('Hello world from VPA mod!'); });
-app.get('/version', (req, res, next) => { res.send('0.5.3'); });
+app.get('/peerjs-version', (req, res, next) => { res.send('0.5.4'); });
 
 const options = {
   debug: true
