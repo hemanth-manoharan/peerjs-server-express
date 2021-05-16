@@ -4,7 +4,7 @@
   "description": "PeerJS Server (VPA Mod) integrated with Express",
   "dependencies": {
     "express": "^4.17.1",
-    "peer-vpa-mod": "^0.5.3"
+    "peer-vpa-mod": "^0.5.4"
   },
   "scripts": {
     "start": "node index.js",
